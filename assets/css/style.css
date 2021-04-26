@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+/* font-family: "Karla", sans-serif; */
+/* Color: #323A45, #848484 */
+
+body {
+    font-family: 'Karla', sans-serif; 
+    width: 100%;
+    height: 100vh;
+}
+
+
+#hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#hero h1 {
+    font-size: 1rem;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+#hero h1:hover {
+    color: #848484;
+}
+
+#hero nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    
+}
+#hero nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding-right: 120px;
+    font-size: 0.8rem;
+    font-weight: bold; 
+    
+}
+#hero nav ul li a:hover {
+    color: #848484;
+}
+
+
+.productName {
+    display: flex;
+    justify-content: space-between;
+}
+.company {
+    color: #848484;
+    padding-top: 10px;
+}
+figure img {
+    width: 100%;
+}
+figure img:hover {
+    opacity: 0.2;
+}
+#shop {
+    width: 90%;
+    justify-content: center;
+    margin-left: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.article1 {
+    grid-column: 1 /-1;
+}
+.articleBook {
+    grid-column: 1/-1;
+}
+.articleLamp {
+    grid-column: 1/-1;
+}
+.articleBook2 {
+    grid-column: 1/-1;
+}
+.articleBottles {
+    grid-column: 1/-1;
+}
+
+
+
+#lSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 8%;
+    margin-top: 6%;
+    gap: 40px;
+}
+#designShop {
+    display: flex;
+    flex-direction: column;
+}
+#designShop p {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+}
+#designShop p span {
+    color: #323A45;
+}
+#contact {
+    margin-left: 30%;
+}
+#contact a {
+    text-decoration: none;
+    color: black;
+}
+#contact h2 {
+    padding-bottom: 5%;
+}
+#contact a , p {
+    font-size: 0.9rem;
+}
+#newsletter p em {
+    display: block;
+}
+#newsletter p b {
+    font-weight: 900;
+}
+#newsletter p {
+    line-height: 1.6rem;
+}
+#find a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    line-height: 2rem;
+}
+
+
+footer {
+    margin-left: 10%;
+    color: #848484;
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
+footer p {
+    font-size: 1.3rem;
+    margin-left: -2.3%;
+    
+}
+footer p span::before {
+    content: " \2022";
+    padding-right: 5px;
+    padding-left: 5px;
+    
+}
+
+
+
+@media only screen and (max-width: 320px) {
+
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 980px) {
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+}
